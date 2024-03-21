@@ -3,7 +3,6 @@ import ButtonPrimary from "../components/btn/btnPrimary";
 import pintuKantorHexa from "../img/main-photo-webp/pintu-kantor-hexa.webp";
 import welcomeHexa from "../img/main-photo-webp/welcome-admin-hexa.webp";
 import holdHand from "../img/main-photo-webp/visi-misi.webp";
-import arrowWhite from "../img/icon-arrow-white.svg";
 import { GoDotFill } from "react-icons/go";
 
 const AboutUs = () => {
@@ -50,14 +49,11 @@ const AboutUs = () => {
               memberikan layanan yang terintegrasi dan solusi yang inovatif
               dalam berbagai aspek manajemen sumber daya manusia.
             </p>
-            {/* <button
-            className={`items-center justify-center px-6 py-4 flex gap-2
-        text-white bg-btn-primary-bg
-      rounded-2xl h-fit`}
-          >
-            Hubungi Kami <img src={arrowWhite} className="w-3 h-3" />
-          </button> */}
-            <ButtonPrimary text="Hubungi Kami" />
+
+            <ButtonPrimary
+              text="Hubungi Kami"
+              onClickBtn={() => (window.location.href = "/kontak-kami")}
+            />
           </div>
         </div>
       </div>

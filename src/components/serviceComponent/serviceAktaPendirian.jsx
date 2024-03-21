@@ -60,7 +60,11 @@ const ServiceAktaPendirian = () => {
           </div>
 
           <div className="mt-4">
-            <ButtonPrimary text="Hubungi Kami" wFull={false} />
+            <ButtonPrimary
+              text="Hubungi Kami"
+              wFull={false}
+              onClickBtn={() => (window.location.href = "/kontak-kami")}
+            />
           </div>
         </div>
       </div>

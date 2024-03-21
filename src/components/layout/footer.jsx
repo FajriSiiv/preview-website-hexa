@@ -64,6 +64,7 @@ const Footer = () => {
           className={`items-center justify-center px-6 py-4 flex gap-2 
             text-bg-footer-blue bg-white
             rounded-full w-fit font-medium max-md:py-3 z-10`}
+          onClick={() => (window.location.href = "/kontak-kami")}
         >
           Hubungi Kami
           <IoIosArrowBack className="rotate-180 w-4 h-4" />
@@ -96,13 +97,13 @@ const Footer = () => {
           </ul>
           <ul className="flex gap-[6px] ">
             <li className="p-2 border-2 border-border-primary-background rounded-lg">
-              <a href="#" className="w-full h-full">
-                <img src={IcPhone} width={20} height={20} />
+              <a href="/kontak-kami" rel="noreferrer" className="w-full h-full">
+                <img src={IcPhone} width={20} height={20} alt="icon" />
               </a>
             </li>
             <li className="p-2 border-2 border-border-primary-background rounded-lg">
-              <a href="#" className="w-full h-full">
-                <img src={IcMail} width={20} height={20} />
+              <a href="/kontak-kami" rel="noreferrer" className="w-full h-full">
+                <img src={IcMail} width={20} height={20} alt="icon" />
               </a>
             </li>
             <li className="p-2 border-2 border-border-primary-background rounded-lg">
@@ -110,8 +111,9 @@ const Footer = () => {
                 href="https://www.kreasihexa.com/"
                 target="_blank"
                 className="w-full h-full"
+                rel="noreferrer"
               >
-                <img src={IcGlobe} width={20} height={20} />
+                <img src={IcGlobe} width={20} height={20} alt="icon" />
               </a>
             </li>
             <li className="p-2 border-2 border-border-primary-background rounded-lg">
@@ -119,6 +121,7 @@ const Footer = () => {
                 href="https://www.instagram.com/kerjasinicom?igsh=dTg4Mml4b3FtZHA3"
                 target="_blank"
                 className="w-full h-full"
+                rel="noreferrer"
               >
                 <FaInstagram className="w-5 h-5 text-[#194DFF]" />
               </a>

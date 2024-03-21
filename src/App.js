@@ -48,7 +48,10 @@ function App() {
             </p>
             <div className="flex gap-2 max-hp:flex-col max-hp:items-start">
               <div className="max-hp:flex-1">
-                <ButtonPrimary text="Hubungi Kami Sekarang" />
+                <ButtonPrimary
+                  text="Hubungi Kami Sekarang"
+                  onClickBtn={() => (window.location.href = "/kontak-kami")}
+                />
               </div>
               <button
                 className="items-center px-6 py-3 flex gap-2

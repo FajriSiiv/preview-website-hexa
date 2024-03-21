@@ -102,7 +102,11 @@ const ServiceOutSourcing = () => {
           ))}
 
           <div className="mt-4">
-            <ButtonPrimary text="Hubungi Kami" wFull={false} />
+            <ButtonPrimary
+              text="Hubungi Kami"
+              wFull={false}
+              onClickBtn={() => (window.location.href = "/kontak-kami")}
+            />
           </div>
         </div>
       </div>
@@ -125,7 +129,10 @@ const ServiceIntership = () => {
               Penyelenggaraan Pemagangan di Dalam Negeri
             </p>
           </div>
-          <ButtonPrimary text="Hubungi Kami" />
+          <ButtonPrimary
+            text="Hubungi Kami"
+            onClickBtn={() => (window.location.href = "/kontak-kami")}
+          />
         </div>
         <div className="flex-grow">
           <div className="rounded-3xl overflow-hidden">
