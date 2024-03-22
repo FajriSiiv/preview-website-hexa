@@ -183,9 +183,7 @@ const Navbar = () => {
               </button>
               {eList.name === "Layanan Kami" && (
                 <div
-                  className={`flex flex-col md:gap-y-4 transition-all overflow-hidden ${
-                    openLayanan ? "h-fit" : "h-0 hidden"
-                  }`}
+                  className={`flex flex-col md:gap-y-4 transition-all overflow-hidden `}
                 >
                   {listIzinPage.map((listNav) => (
                     <NavbarDropdownSM name={listNav.name} goTo={listNav.goTo} />
