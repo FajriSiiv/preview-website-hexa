@@ -7,6 +7,7 @@ import { RiMenu4Fill } from "react-icons/ri";
 const Navbar = () => {
   const [navMenu, setNavMenu] = useState(false);
   const [openLayanan, setOpenLayanan] = useState(false);
+  const [openLayananHP, setOpenLayananHP] = useState(false);
 
   const router = useLocation();
 
@@ -57,10 +58,12 @@ const Navbar = () => {
   };
 
   const onClickMenuLayanan = () => {
-    if (openLayanan) {
+    if (openLayanan || openLayananHP) {
       setOpenLayanan(false);
+      setOpenLayananHP(false);
     } else {
       setOpenLayanan(true);
+      setOpenLayananHP(true);
     }
   };
 
@@ -183,7 +186,9 @@ const Navbar = () => {
               </button>
               {eList.name === "Layanan Kami" && (
                 <div
-                  className={`flex flex-col md:gap-y-4 transition-all overflow-hidden `}
+                  className={`flex flex-col md:gap-y-4 transition-all overflow-hidden ${
+                    openLayananHP ? "flex" : "hidden"
+                  }`}
                 >
                   {listIzinPage.map((listNav) => (
                     <NavbarDropdownSM name={listNav.name} goTo={listNav.goTo} />

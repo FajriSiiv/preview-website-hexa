@@ -32,7 +32,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="max-w-[1144px] mx-auto max-xl:px-10 max-md:px-5">
+    <div className="max-w-[1144px] mx-auto max-xl:px-10 max-md:px-5 overflow-x-hidden">
       <div className="py-[62px] mb-20 bg-bg-footer-blue max-h-[368px] h-full flex items-center flex-col gap-10 rounded-2xl relative overflow-hidden max-hp:max-h-fit">
         <div className="flex flex-col gap-[10px] px-10 text-center justify-center items-center text-white z-10 max-hp:px-4">
           <h3 className="font-semibold text-[32px] -tracking-[1px] max-w-[824px] leading-[120%] max-md:text-2xl">
