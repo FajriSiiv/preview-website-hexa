@@ -78,8 +78,12 @@ const Footer = () => {
           <ul className="flex gap-2 items-center text-xs max-hp:flex-wrap">
             {listNav.map((eList, index) => (
               <li key={index} className="block">
-                <a
-                  href={eList.goTo}
+                <button
+                  onClick={
+                    eList.name === "Layanan Kami"
+                      ? () => console.log("layanan kami")
+                      : () => (window.location.href = `${eList.goTo}`)
+                  }
                   className={`
                   font-medium text-text-secondary-700
                   ${
@@ -91,7 +95,7 @@ const Footer = () => {
                   } rounded-lg px-4 py-2 block hover:bg-background-secondary-colors transition-all`}
                 >
                   {eList.name}
-                </a>
+                </button>
               </li>
             ))}
           </ul>

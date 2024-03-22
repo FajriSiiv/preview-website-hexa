@@ -30,7 +30,7 @@ function App() {
       <div className="max-w-[1144px] mx-auto max-xl:px-10 max-md:px-5 max-hp:px-3">
         <div className="flex justify-between items-center h-screen max-h-[736px] max-lg:gap-x-2 max-md:items-start max-md:mt-10 max-hp:max-h-[600px]">
           <div className="flex flex-col gap-6 max-w-[586px] max-h-[480px] max-md:gap-y-3 max-hp:gap-y-5">
-            <p className=" px-6 py-3 font-semibold bg-[#F8F9FD] rounded-[30px] w-fit  max-lg:text-sm max-hp:text-xs max-hp:whitespace-pre max-hp:px-3 max-hp:py-1.5">
+            <p className=" px-6 py-3 font-semibold bg-[#F8F9FD] rounded-[30px] w-fit  max-lg:text-sm max-hp:text-xs max-hp:px-3 max-hp:py-1.5">
               <span className="text-[#4771FF]">
                 Selamat Datang di PT Kreasi Hexa Indonesia
               </span>
@@ -95,7 +95,7 @@ const BenefitOurCompany = () => {
     return (
       <div className="py-8 px-2 flex flex-col items-center justify-center gap-6  max-h-[240px] w-full h-full  bg-white border-2 border-[#F2F4F7] rounded-2xl max-sm:max-w-screen">
         <div className="p-3  rounded-[15px] bg-bg-icon">
-          <img src={iconSrc} className="w-7 h-7 " />
+          <img src={iconSrc} className="w-7 h-7 " alt="icon src" />
         </div>
         <div className="flex flex-col gap-2 items-center text-center">
           <h3 className="text-lg font-semibold  text-text-primary-900 max-xl:text-base max-hp:text-xl ">
