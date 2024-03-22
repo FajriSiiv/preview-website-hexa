@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/logo/logo-hexa.svg";
+import logo from "../../img/logo/logo-hexa.png";
 
 const LogoHexaIndonesia = () => {
   return (
