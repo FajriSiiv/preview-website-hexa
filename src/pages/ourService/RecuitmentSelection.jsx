@@ -54,15 +54,7 @@ const RecuitmentSelection = () => {
                 </p>
               </div>
             </div>
-            <div>
-              <button
-                className={`h-fit items-center justify-center px-6 py-4 flex gap-2 
-        text-white bg-btn-primary-color rounded-full `}
-              >
-                Lihat Selengkapnya{" "}
-                <img alt="arrow white" src={arrowWhite} className="w-3 h-3" />
-              </button>
-            </div>
+            <div></div>
           </div>
           <div className="col-span-7 rounded-2xl overflow-hidden">
             <img
