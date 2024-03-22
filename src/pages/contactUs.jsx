@@ -75,14 +75,12 @@ const ContactUs = () => {
               <p className="text-text-secondary-700 font-medium mb-3">
                 (021) 89090094
               </p>
-              <span
-                // href="#"
-                // target="_blank"
-                // rel="noreferrer"
+              <a
+                href="tel:+622189090094"
                 className="py-2 px-3 text-btn-primary-color border border-stroke-blue-blue-100 rounded-full text-xs h-fit font-medium"
               >
                 Telepon Kami
-              </span>
+              </a>
             </div>
           </div>
           <div className="flex gap-x-4  items-center max-md:flex-col gap-y-2">
@@ -96,14 +94,12 @@ const ContactUs = () => {
               <p className="text-text-secondary-700 font-medium mb-3">
                 hrlegal@kreasihexa.com
               </p>
-              <span
-                // href="#"
-                // target="_blank"
-                // rel="noreferrer"
+              <a
+                href="mailto:hrlegal@kreasihexa.com"
                 className="py-2 px-3 text-btn-primary-color border border-stroke-blue-blue-100 rounded-full text-xs h-fit font-medium"
               >
                 Email Kami
-              </span>
+              </a>
             </div>
           </div>
           <div className="flex gap-x-4  items-center max-md:flex-col gap-y-2">
