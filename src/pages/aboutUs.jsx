@@ -73,7 +73,7 @@ const AboutUs = () => {
             <div className="col-span-3 overflow-hidden rounded-lg max-md:hidden max-md:col-span-0">
               <img
                 src={holdHand}
-                alt="Hexa Visi & Misi - (From Unsplash - Image)"
+                alt="Hexa Visi & Misi - (From Unsplash)"
                 className="max-h-[450px] h-full w-full object-cover max-lg:max-h-full"
               />
             </div>

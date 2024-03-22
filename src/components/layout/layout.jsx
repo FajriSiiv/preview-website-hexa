@@ -14,16 +14,16 @@ const Layout = ({ children }) => {
           <span>@2024 PT Kreasi Hexa Indonesia. All Right Reserved</span>
           <ul className="flex gap-5 max-hp:flex-wrap max-hp:justify-center">
             <li>
-              <a href="#">Legal</a>
+              <span>Legal</span>
             </li>
             <li>
-              <a href="#">Acceptable Use Policy</a>
+              <span>Acceptable Use Policy</span>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <span>Privacy Policy</span>
             </li>
             <li>
-              <a href="#">Term of Service</a>
+              <span>Term of Service</span>
             </li>
           </ul>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import { LuLaptop } from "react-icons/lu";
 import IcUserGroup from "../../img/icon/users-group.svg";
-import arrowWhite from "../../img/icon-arrow-white.svg";
 import OutsourcingBussiness from "../../img/main-photo-webp/outsourcing-bisnis.webp";
 import IntershipBussiness from "../../img/main-photo-webp/intership-bisnis.webp";
 import BisnisManajemen from "../../img/main-photo-webp/bisnis-manajemen.webp";

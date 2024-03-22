@@ -1,7 +1,6 @@
 import React from "react";
 import { LuLaptop } from "react-icons/lu";
 import IcUserGroup from "../../img/icon/users-group.svg";
-import arrowWhite from "../../img/icon-arrow-white.svg";
 import PengurusanIzinHexa from "../../img/main-photo-webp/pengurusan-izin-hexa.webp";
 import ServiceGridIzin from "../../components/serviceComponent/serviceOpersional";
 import ServiceIzinWhite from "../../components/serviceComponent/serviceIzinWhite";

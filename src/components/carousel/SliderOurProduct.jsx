@@ -103,7 +103,7 @@ const SliderOurProduct = () => {
         <img
           className="flex-1 w-[390px] max-h-[210px] object-cover object-top max-lg:w-full max-md:max-h-[200px]"
           src={imgSrc}
-          alt="photo our product"
+          alt="our product"
           loading="lazy"
         />
 

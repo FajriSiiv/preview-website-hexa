@@ -1,7 +1,6 @@
 import React from "react";
 import { LuLaptop } from "react-icons/lu";
 import IcUserGroup from "../../img/icon/users-group.svg";
-import arrowWhite from "../../img/icon-arrow-white.svg";
 import RekrutmenSeleksi from "../../img/main-photo-webp/rekrutmen-seleksi-hexa.webp";
 import lvlOperator from "../../img/main-photo-webp/level-operator.webp";
 import lvlStaff from "../../img/main-photo-webp/level-staff.webp";

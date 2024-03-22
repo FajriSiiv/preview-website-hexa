@@ -71,7 +71,7 @@ function App() {
             <img
               src={heroPhoto}
               className="object-cover w-full h-[480px] rounded-2xl max-lg:max-h-[400px] max-lg:max-w-[400px] "
-              alt="hero photo"
+              alt="hero main"
               loading="lazy"
             />
           </div>
