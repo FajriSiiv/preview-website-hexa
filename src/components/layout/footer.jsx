@@ -101,12 +101,12 @@ const Footer = () => {
           </ul>
           <ul className="flex gap-[6px] ">
             <li className="p-2 border-2 border-border-primary-background rounded-lg">
-              <a href="/kontak-kami" rel="noreferrer" className="w-full h-full">
+              <a href="tel:+622189090094" className="w-full h-full">
                 <img src={IcPhone} width={20} height={20} alt="icon" />
               </a>
             </li>
             <li className="p-2 border-2 border-border-primary-background rounded-lg">
-              <a href="/kontak-kami" rel="noreferrer" className="w-full h-full">
+              <a href="mailto:hrlegal@kreasihexa.com" className="w-full h-full">
                 <img src={IcMail} width={20} height={20} alt="icon" />
               </a>
             </li>
