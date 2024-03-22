@@ -8,10 +8,10 @@ const ContactUs = () => {
   return (
     <div className="pt-16 pb-16 max-w-[1144px] mx-auto max-xl:px-5 max-lg:pt-10">
       <div>
-        <h1 className="text-[32px] font-semibold text-text-primary-900">
+        <h1 className="text-[32px] font-semibold text-text-primary-900 max-hp:text-2xl">
           Hubungi Kami Segera
         </h1>
-        <p className="text-text-secondary-700">
+        <p className="text-text-secondary-700 max-hp:text-sm">
           Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan,
           komentar, atau permintaan. Tim kami siap membantu Anda dengan senang
           hati.

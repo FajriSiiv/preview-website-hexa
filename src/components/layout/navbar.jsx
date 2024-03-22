@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import LogoHexaIndonesia from "../Logo";
 
 import { RiMenu4Fill } from "react-icons/ri";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [navMenu, setNavMenu] = useState(false);
@@ -157,10 +158,18 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`lg:hidden absolute bg-white h-[80vh] max-h-[600px] botom-0 left-0 w-screen -z-20 transition-all ${
-          navMenu ? "translate-y-1/2" : "-translate-y-1/2"
+        className={`lg:hidden absolute bg-white h-[90vh] max-h-[750px] botom-0 left-0 w-screen transition-all  border-2 z-10 ${
+          navMenu
+            ? "top-0 scale-100 "
+            : "translate-x-1/2 -translate-y-1/2 scale-0 "
         }`}
       >
+        <div className="flex w-full justify-between items-center absolute top-0 left-0 p-4">
+          <LogoHexaIndonesia />
+          <div className="hidden max-md:flex" onClick={() => openNavMenu()}>
+            <IoClose className="w-6 h-6" />
+          </div>
+        </div>
         <ul className="flex items-center justify-center gap-x-[16px] font-medium text-sm max-md:flex-col max-lg:h-full max-md:gap-y-4 pb-10">
           {listNav.map((eList, index) => (
             <li key={index} className={`flex flex-col max-md:gap-y-4 `}>

@@ -21,9 +21,9 @@ const RecuitmentSelection = () => {
   const listStaff = ["Staff", "Supervisor", "Manager", "BOD"];
   return (
     <div>
-      <div className="max-w-[1144px] mx-auto py-16 max-xl:px-10 max-hp:px-3  ">
+      <div className="max-w-[1144px] mx-auto py-16 max-xl:px-10 max-hp:px-3 max-hp:py-5 ">
         <div className="text-center">
-          <h1 className="text-5xl font-semibold text-text-primary-900 mb-6 max-hp:text-3xl">
+          <h1 className="text-5xl font-semibold text-text-primary-900 mb-6 max-hp:text-2xl max-hp:mb-2">
             Rekrutmen & Seleksi
           </h1>
           <p className="text-text-secondary-700 max-hp:text-sm">

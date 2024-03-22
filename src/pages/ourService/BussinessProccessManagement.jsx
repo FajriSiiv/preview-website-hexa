@@ -11,9 +11,9 @@ import ButtonPrimary from "../../components/btn/btnPrimary";
 const BussinessProccessManagement = () => {
   return (
     <div>
-      <div className="relative max-w-[1144px] mx-auto py-16 max-xl:px-10 max:lg:py-10 max-hp:px-3 max-md:px-5">
+      <div className="relative max-w-[1144px] mx-auto py-16 max-xl:px-10 max:lg:py-10 max-hp:px-3 max-md:px-5 max-hp:py-5">
         <div className="text-center">
-          <h1 className="text-5xl font-semibold text-text-primary-900 mb-6 max-hp:text-3xl">
+          <h1 className="text-5xl font-semibold text-text-primary-900 mb-6 max-hp:mb-2 max-hp:text-2xl">
             Business Process Management
           </h1>
           <p className="text-text-secondary-700 max-hp:text-sm">
