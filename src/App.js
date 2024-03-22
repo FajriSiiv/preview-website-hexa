@@ -26,7 +26,7 @@ import MKGLogo from "./img/client-logo/mkg-logo.png";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <div className="max-w-[1144px] mx-auto max-xl:px-10 max-md:px-5 max-hp:px-3">
         <div className="flex justify-between items-center h-screen max-h-[600px] max-lg:gap-x-2 max-md:items-start max-md:mt-10 max-hp:max-h-[600px]">
           <div className="flex flex-col gap-6 max-w-[586px] max-h-[480px] max-md:gap-y-3 max-hp:gap-y-5">
