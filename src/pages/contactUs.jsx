@@ -6,7 +6,7 @@ import IcMail from "../img/icon/mail-01.svg";
 
 const ContactUs = () => {
   return (
-    <div className="pt-32 pb-16 max-w-[1144px] mx-auto max-xl:px-5 max-lg:pt-10">
+    <div className="pt-16 pb-16 max-w-[1144px] mx-auto max-xl:px-5 max-lg:pt-10">
       <div>
         <h1 className="text-[32px] font-semibold text-text-primary-900">
           Hubungi Kami Segera

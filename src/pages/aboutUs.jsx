@@ -16,7 +16,7 @@ const AboutUs = () => {
   return (
     <div className=" ">
       <div className="max-w-[1144px] mx-auto max-xl:px-10 max-md:px-5">
-        <div className="flex flex-col gap-y-6 py-32 max-xl:py-12">
+        <div className="flex flex-col gap-y-6 py-16 max-xl:py-12">
           <h1 className="text-text-primary-900 text-4xl font-semibold -tracking-[1px] max-hp:text-3xl">
             Kenali Lebih Banyak Tentang{" "}
             <span className="text-btn-primary-color">

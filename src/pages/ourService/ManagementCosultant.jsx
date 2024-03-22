@@ -29,7 +29,7 @@ const ManagementCosultant = () => {
 
   return (
     <div className="">
-      <div className="max-w-[1144px] mx-auto py-20 max-xl:px-10 max:lg:py-10 max-hp:px-3">
+      <div className="max-w-[1144px] mx-auto py-16 max-xl:px-10 max:lg:py-10 max-hp:px-3">
         <div className="text-center">
           <h1 className="text-5xl font-semibold text-text-primary-900 mb-6 max-hp:text-3xl">
             Pengurusan Izin
